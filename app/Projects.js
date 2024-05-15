@@ -25,7 +25,7 @@ export default function Projects() {
                   links={[
                     { text: 'View Source Code', href: 'https://github.com/MeetGodad/TacTical-TicTacToe/blob/main/README.md' },
                   ]}
-                  imageSrc="images/Game Board.jpg"
+                  imageSrc="images/Gameboard.jpg"
                   imageAlt="Tactical Tic Tac Toe Project Image"
                 />
               </div>
