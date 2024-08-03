@@ -7,6 +7,17 @@ export default function Projects() {
             <div className="row">
               <h2>Projects</h2>
               <div className="work__boxes">
+                <WorkItem 
+                  title="Tech Textile (Capstone Project)"
+                  description="TechTextile is an innovative B2B and B2C e-commerce platform specializing in yarn and fabric products. Our mission is to bridge the gap between Indian textile manufacturers and North American buyers, leveraging the substantial import market and facilitating global trade."
+                  techStack={['JavaScript' , 'React', 'Next.js' , 'Node', 'PostgreSql', 'NeonDatabase' , 'Firebase' , 'Figma', 'Git', 'GitHub', 'TailwindCSS']}
+                  links={[
+                    { text: 'Visit Site', href: 'https://techtextile.vercel.app/', target: '_blank' },
+                    { text: 'View Source Code', href: 'https://github.com/MeetGodad/techtextile/blob/master/README.md', target: '_blank' },
+                  ]}
+                  imageSrc='images/Tech Textile 1.png'
+                  imageAlt="Tech Textile Project Image"
+                />  
                 <WorkItem
                   title="Healthy Eats"
                   description="A web application designed to create personalized meal plans that cater to your body's needs, not just your cravings."
