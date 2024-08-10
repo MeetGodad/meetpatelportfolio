@@ -17,7 +17,16 @@ export default function Projects() {
                   ]}
                   imageSrc='images/Tech Textile 1.png'
                   imageAlt="Tech Textile Project Image"
-                />  
+                /> 
+                <WorkItem 
+                  title =".NET Project of Event Application" 
+                  description={"Meet_Final_Of_MAUIApp is a MAUI desktop application designed to manage concert events. The application connects to a database to store and retrieve event information, providing a user-friendly graphical user interface (GUI) for interaction. This project integrates various elements from previous assignments to create a cohesive and functional application."}
+                  techStack={['C#' , '.NET' , '.NET MAUI GUI' , 'Blazor App' , 'Visual Studio IDE' , 'Git' , 'GitHub'  ]}
+                  links={[
+                    { text: 'View Source Code', href: 'https://github.com/MeetGodad/Meet_Final_Of_MAUIApp/blob/master/README.md', target: '_blank' },
+                  ]}
+                  imageSrc='images/NETMAUIAPP.png'
+                  />
                 <WorkItem
                   title="Healthy Eats"
                   description="A web application designed to create personalized meal plans that cater to your body's needs, not just your cravings."
